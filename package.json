@@ -1,0 +1,46 @@
+{
+  "name": "free-nextadmin-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.1",
+    "@mui/material": "^6.4.2",
+    "@mui/material-nextjs": "^6.4.2",
+    "@mui/styled-engine-sc": "^6.4.2",
+    "@mui/x-charts": "^7.25.0",
+    "apexcharts": "^3.45.2",
+    "flatpickr": "^4.6.13",
+    "jsvectormap": "^1.6.0",
+    "next": "^14.1.4",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18",
+    "react-quill": "^2.0.0",
+    "react-select": "^5.8.0",
+    "react-table": "^7.8.0",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-table": "^7.7.19",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
